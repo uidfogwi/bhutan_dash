@@ -15,18 +15,18 @@ import os
 
 # Define file paths
 file_paths = {
-    '2020_part1': 'data/bhutan_2020_p1.csv',
-    '2020_part2': 'data/bhutan_2020_p2.csv',
-    '2020_part3': 'data/bhutan_2020_p3.csv',
-    '2020_part4': 'data/bhutan_2020_p4.csv',
-    '2021_part1': 'data/bhutan_2021_p1.csv',
-    '2021_part2': 'data/bhutan_2021_p2.csv',
-    '2022_part1': 'data/bhutan_2022_p1.csv',
-    '2022_part2': 'data/bhutan_2022_p2.csv',
-    '2023_part1': 'data/bhutan_2023_p1.csv',
-    '2023_part2': 'data/bhutan_2023_p2.csv',
-    '2024_part1': 'data/bhutan_2024_p1.csv',
-    '2024_part2': 'data/bhutan_2024_p2.csv'
+    '2020_part1': r'data/bhutan_2020_p1.csv',
+    '2020_part2': r'data/bhutan_2020_p2.csv',
+    '2020_part3': r'data/bhutan_2020_p3.csv',
+    '2020_part4': r'data/bhutan_2020_p4.csv',
+    '2021_part1': r'data/bhutan_2021_p1.csv',
+    '2021_part2': r'data/bhutan_2021_p2.csv',
+    '2022_part1': r'data/bhutan_2022_p1.csv',
+    '2022_part2': r'data/bhutan_2022_p2.csv',
+    '2023_part1': r'data/bhutan_2023_p1.csv',
+    '2023_part2': r'data/bhutan_2023_p2.csv',
+    '2024_part1': r'data/bhutan_2024_p1.csv',
+    '2024_part2': r'data/bhutan_2024_p2.csv'
 }
 
 

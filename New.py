@@ -10,11 +10,11 @@ from collections import Counter
 
 # Define file paths
 file_paths = {
-    '2020': [r'bhutan_2020_p1.csv', r'bhutan_2020_p2.csv', r'bhutan_2020_p3.csv', r'bhutan_2020_p4.csv'],
-    '2021': [r'bhutan_2021_p1.csv', r'bhutan_2021_p2.csv'],
-    '2022': [r'bhutan_2022_p1.csv', r'bhutan_2022_p2.csv'],
-    '2023': [r'bhutan_2023_p1.csv', r'bhutan_2023_p2.csv'],
-    '2024': [r'bhutan_2024_p1.csv', r'bhutan_2024_p2.csv']
+    '2020': ['data/bhutan_2020_p1.csv', 'data/bhutan_2020_p2.csv', 'data/bhutan_2020_p3.csv', 'data/bhutan_2020_p4.csv'],
+    '2021': ['data/bhutan_2021_p1.csv', 'data/bhutan_2021_p2.csv'],
+    '2022': ['data/bhutan_2022_p1.csv', 'data/bhutan_2022_p2.csv'],
+    '2023': ['data/bhutan_2023_p1.csv', 'data/bhutan_2023_p2.csv'],
+    '2024': ['data/bhutan_2024_p1.csv', 'data/bhutan_2024_p2.csv']
 }
 
 # Load data
@@ -126,4 +126,3 @@ else:
         df_filtered = df_filtered.assign(Keyword=df_filtered['Theme'].str.split(';')).explode('Keyword')
         fig_box = px.box(df_filtered, x='Keyword', y='Tone', title=f'Tone Distribution by Keywords for {selected_year}')
         st.plotly_chart(fig_box)
-

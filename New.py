@@ -10,11 +10,11 @@ from collections import Counter
 
 # Define file paths
 file_paths = {
-    '2020': ['data/bhutan_2020_p1.csv', 'data/bhutan_2020_p2.csv', 'data/bhutan_2020_p3.csv', 'data/bhutan_2020_p4.csv'],
-    '2021': ['data/bhutan_2021_p1.csv', 'data/bhutan_2021_p2.csv'],
-    '2022': ['data/bhutan_2022_p1.csv', 'data/bhutan_2022_p2.csv'],
-    '2023': ['data/bhutan_2023_p1.csv', 'data/bhutan_2023_p2.csv'],
-    '2024': ['data/bhutan_2024_p1.csv', 'data/bhutan_2024_p2.csv']
+    '2020': ['data/Bhutan_2020_p1.csv', 'data/Bhutan_2020_p2.csv', 'data/Bhutan_2020_p3.csv', 'data/Bhutan_2020_p4.csv'],
+    '2021': ['data/Bhutan_2021_p1.csv', 'data/Bhutan_2021_p2.csv'],
+    '2022': ['data/Bhutan_2022_p1.csv', 'data/Bhutan_2022_p2.csv'],
+    '2023': ['data/Bhutan_2023_p1.csv', 'data/Bhutan_2023_p2.csv'],
+    '2024': ['data/Bhutan_2024_p1.csv', 'data/Bhutan_2024_p2.csv']
 }
 
 # Load data

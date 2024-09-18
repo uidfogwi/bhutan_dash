@@ -1,2 +1,3 @@
-web: gunicorn New:app
+web: streamlit run New.py
+
 
